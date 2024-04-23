@@ -2,19 +2,19 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon = "/favicon.png"
+favicon = "/fav.png"
 
 [footer]
-since = 2020
-customText = ""
+since = 2024
+customText = "icon's avatar <a href='https://booth.pm/ja/items/3605652'>here</a>"
 
 [dateFormat]
 published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+emoji = "🦊"
+subtitle = "書きたいことを書きます/アバターは買ったやつ"
 
 [sidebar.avatar]
 enabled = true
