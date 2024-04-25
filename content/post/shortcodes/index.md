@@ -2,6 +2,7 @@
 title: hugo-theme-stackの機能/Markdownガイド
 description: 消したらわからなくなるので初期ページそのまま名前変えたりして残してます。
 date: 2024-04-23 00:00:00+0000
+lastmod: 2024-04-25 18:49:00+0900
 image: cover.jpg
 ---
 
