@@ -8,11 +8,6 @@ image: cover.jpg
 
 For more details, check out the [documentation](https://stack.jimmycai.com/writing/shortcodes).
 
-## link card
-> code {{< card "https://rkd3.dev/post/hugomediatypeerr/" >}}
-
-{{< card "https://example.com/" >}}
-
 ## Bilibili video
 
 {{< bilibili "BV1d4411N7zD" >}}
@@ -21,10 +16,7 @@ For more details, check out the [documentation](https://stack.jimmycai.com/writi
 
 {{< tencent "g0014r3khdw" >}}
 
-## niconico
-> 独自に追加した機能です。通常のhugo-theme-stackでは利用できません。
 
-{{< niconico "sm2853212" >}}
 
 ## YouTube video
 
@@ -52,7 +44,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 > Photo by [Codioful](https://unsplash.com/@codioful) on [Unsplash](https://unsplash.com/photos/WDSN62Qdxuk)
 
-# Markdownガイド
+## 独自機能
+### niconico
+{{< niconico "sm2853212" >}}
+
+### link card
+> code {{< card "https://rkd3.dev/post/hugomediatypeerr/" >}}
+
+{{< card "https://example.com/" >}}
+
+
+## Markdownガイド
 
 ## Headings
 
