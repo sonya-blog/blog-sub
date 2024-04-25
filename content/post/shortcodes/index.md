@@ -2,8 +2,14 @@
 title: hugo-theme-stackの機能/Markdownガイド
 description: 消したらわからなくなるので初期ページそのまま名前変えたりして残してます。
 date: 2024-04-23 00:00:00+0000
-lastmod: 2024-04-25 18:49:00+0900
+lastmod: 2024-04-25 19:04:00+0900
 image: cover.jpg
+draft: false
+tags:
+  - markdown
+categories:
+  - hugo関連
+slug: hugo-theme-stack-examples
 ---
 
 For more details, check out the [documentation](https://stack.jimmycai.com/writing/shortcodes).
