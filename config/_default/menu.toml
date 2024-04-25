@@ -1,11 +1,19 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+[[main]]
+identifier = "About"
+name = "About"
+url = "/about"
+
+[main.params]
+icon = "user"
+
+[[social]]
+identifier = "feed"
+name = "RSS Feed"
+url = "/index.xml"
+
+[social.params]
+icon = "rss"
 
 [[social]]
 identifier = "github"
@@ -22,3 +30,4 @@ url = "https://twitter.com/sonya4327"
 
 [social.params]
 icon = "brand-twitter"
+

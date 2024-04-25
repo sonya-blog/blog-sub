@@ -1,3 +1,4 @@
+
 User-agent: MotoMinerBot
 Disallow: /
 User-agent: GPTBot
@@ -42,3 +43,8 @@ User-agent: Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/)
 Disallow: /
 User-agent: Mozilla/5.0 (compatible; SphereUp; http://www.sphereup.com/)
 Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://vr.sonyakun.com/sitemap.xml
