@@ -3,11 +3,12 @@ name: Deploy to Github Pages
 on:
     push:
         branches: [master]
+    pull_request:
+        branches: [master]
 
 jobs:
     build:
         runs-on: ubuntu-latest
-        timeout-minutes: 5
 
         permissions:
             # Give the default GITHUB_TOKEN write permission to commit and push the
@@ -41,10 +42,10 @@ jobs:
             - name: Build
               run: hugo --minify --gc
 
-            - name: Commit 🚀
+            - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4
               with:
-                  branch: production
+                  branch: gh-pages
                   folder: public
                   clean: true
                   single-commit: true
