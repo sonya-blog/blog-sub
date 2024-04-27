@@ -17,6 +17,8 @@ disqusShortname = "vrc-blog"
 
 enableRobotsTXT = true
 
+timeout = "180s"
+
 [sitemap]
   changeFreq = ''
   disable = false
